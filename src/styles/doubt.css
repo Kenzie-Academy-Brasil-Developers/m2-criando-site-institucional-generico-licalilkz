@@ -1,0 +1,40 @@
+.section__doubt{
+    color: white;
+    background-color: var(--color-gray2);
+    display: flex;
+    padding: 20px;
+}
+
+.section__doubt p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-gray4);
+}
+
+.others__doubt h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 160%;
+    text-align: center;
+}
+
+.frequent__doubt{
+    padding: 50px;
+}
+
+.others__doubt{
+    padding: 50px;
+}
+
+.button__doubt{
+    margin-right: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--color-brand1);
+    color: white;
+    border: none;
+}

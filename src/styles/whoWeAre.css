@@ -1,0 +1,36 @@
+/* .div__who-we-are{
+    height: 400px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color:var(--color-gray1);
+    padding: 20px;
+} */
+
+.div__who-we-are{
+    background-color: var(--color-gray1);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 82px 236px;
+    gap: 336px;
+}
+
+.div__who-we-are h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white
+}
+
+.div__who-we-are p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-gray4);
+}
